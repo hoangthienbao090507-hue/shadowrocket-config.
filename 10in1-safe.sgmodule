@@ -1,0 +1,7 @@
+#!name=Shadowrocket Safe Demo
+#!desc=Routing test only. Does not unlock subscriptions or paid features.
+#!author=ChatGPT
+
+[Rule]
+# This is a safe test rule that only affects example.com and subdomains.
+DOMAIN-SUFFIX,example.com,DIRECT
